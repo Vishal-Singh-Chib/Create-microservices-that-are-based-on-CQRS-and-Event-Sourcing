@@ -1,0 +1,6 @@
+@Post.Cmd.Api.csproj_HostAddress = http://localhost:5192
+
+GET {{Post.Cmd.Api.csproj_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
