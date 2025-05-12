@@ -1,0 +1,13 @@
+D:\CQRSProject\CQRS-ES\CQRS.Core\bin\Debug\net9.0\CQRS.Core.deps.json
+D:\CQRSProject\CQRS-ES\CQRS.Core\bin\Debug\net9.0\CQRS.Core.dll
+D:\CQRSProject\CQRS-ES\CQRS.Core\bin\Debug\net9.0\CQRS.Core.pdb
+D:\CQRSProject\CQRS-ES\CQRS.Core\obj\Debug\net9.0\CQRS.Core.csproj.AssemblyReference.cache
+D:\CQRSProject\CQRS-ES\CQRS.Core\obj\Debug\net9.0\CQRS.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\CQRSProject\CQRS-ES\CQRS.Core\obj\Debug\net9.0\CQRS.Core.AssemblyInfoInputs.cache
+D:\CQRSProject\CQRS-ES\CQRS.Core\obj\Debug\net9.0\CQRS.Core.AssemblyInfo.cs
+D:\CQRSProject\CQRS-ES\CQRS.Core\obj\Debug\net9.0\CQRS.Core.csproj.CoreCompileInputs.cache
+D:\CQRSProject\CQRS-ES\CQRS.Core\obj\Debug\net9.0\CQRS.Core.sourcelink.json
+D:\CQRSProject\CQRS-ES\CQRS.Core\obj\Debug\net9.0\CQRS.Core.dll
+D:\CQRSProject\CQRS-ES\CQRS.Core\obj\Debug\net9.0\refint\CQRS.Core.dll
+D:\CQRSProject\CQRS-ES\CQRS.Core\obj\Debug\net9.0\CQRS.Core.pdb
+D:\CQRSProject\CQRS-ES\CQRS.Core\obj\Debug\net9.0\ref\CQRS.Core.dll

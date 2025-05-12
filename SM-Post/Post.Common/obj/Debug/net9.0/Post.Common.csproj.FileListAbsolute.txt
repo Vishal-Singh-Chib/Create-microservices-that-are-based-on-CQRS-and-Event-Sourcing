@@ -1,0 +1,16 @@
+D:\CQRSProject\SM-Post\Post.Common\bin\Debug\net9.0\Post.Common.deps.json
+D:\CQRSProject\SM-Post\Post.Common\bin\Debug\net9.0\Post.Common.dll
+D:\CQRSProject\SM-Post\Post.Common\bin\Debug\net9.0\Post.Common.pdb
+D:\CQRSProject\SM-Post\Post.Common\bin\Debug\net9.0\CQRS.Core.dll
+D:\CQRSProject\SM-Post\Post.Common\bin\Debug\net9.0\CQRS.Core.pdb
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.csproj.AssemblyReference.cache
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.AssemblyInfoInputs.cache
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.AssemblyInfo.cs
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.csproj.CoreCompileInputs.cache
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.sourcelink.json
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\Post.Com.894DB8FF.Up2Date
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.dll
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\refint\Post.Common.dll
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.pdb
+D:\CQRSProject\SM-Post\Post.Common\obj\Debug\net9.0\ref\Post.Common.dll
