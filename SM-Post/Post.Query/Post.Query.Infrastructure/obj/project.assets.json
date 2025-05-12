@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "CQRS.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CQRS.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CQRS.Core.dll": {}
+        }
+      },
+      "Post.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CQRS.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Post.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Post.Common.dll": {}
+        }
+      },
+      "Post.Query.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CQRS.Core": "1.0.0",
+          "Post.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Post.Query.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Post.Query.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CQRS.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../CQRS-ES/CQRS.Core/CQRS.Core.csproj",
+      "msbuildProject": "../../../CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+    },
+    "Post.Common/1.0.0": {
+      "type": "project",
+      "path": "../../Post.Common/Post.Common.csproj",
+      "msbuildProject": "../../Post.Common/Post.Common.csproj"
+    },
+    "Post.Query.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Post.Query.Domain/Post.Query.Domain.csproj",
+      "msbuildProject": "../Post.Query.Domain/Post.Query.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "CQRS.Core >= 1.0.0",
+      "Post.Query.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\visha\\.nuget\\packages\\": {}
@@ -33,7 +90,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\CQRSProject\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+              "projectPath": "D:\\CQRSProject\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+            },
+            "D:\\CQRSProject\\SM-Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj": {
+              "projectPath": "D:\\CQRSProject\\SM-Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

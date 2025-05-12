@@ -171,7 +171,14 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\CQRSProject\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "D:\\CQRSProject\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+              },
+              "D:\\CQRSProject\\SM-Post\\Post.Common\\Post.Common.csproj": {
+                "projectPath": "D:\\CQRSProject\\SM-Post\\Post.Common\\Post.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -232,7 +239,14 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\CQRSProject\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "D:\\CQRSProject\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+              },
+              "D:\\CQRSProject\\SM-Post\\Post.Cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj": {
+                "projectPath": "D:\\CQRSProject\\SM-Post\\Post.Cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -293,7 +307,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\CQRSProject\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "D:\\CQRSProject\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

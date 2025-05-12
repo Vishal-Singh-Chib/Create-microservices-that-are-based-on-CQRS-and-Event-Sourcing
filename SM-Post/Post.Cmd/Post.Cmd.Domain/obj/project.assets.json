@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "CQRS.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CQRS.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CQRS.Core.dll": {}
+        }
+      },
+      "Post.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CQRS.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Post.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Post.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CQRS.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../CQRS-ES/CQRS.Core/CQRS.Core.csproj",
+      "msbuildProject": "../../../CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+    },
+    "Post.Common/1.0.0": {
+      "type": "project",
+      "path": "../../Post.Common/Post.Common.csproj",
+      "msbuildProject": "../../Post.Common/Post.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "CQRS.Core >= 1.0.0",
+      "Post.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\visha\\.nuget\\packages\\": {}
@@ -13,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CQRSProject\\SM-Post\\Post.cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj",
+      "projectUniqueName": "D:\\CQRSProject\\SM-Post\\Post.Cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj",
       "projectName": "Post.Cmd.Domain",
-      "projectPath": "D:\\CQRSProject\\SM-Post\\Post.cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj",
+      "projectPath": "D:\\CQRSProject\\SM-Post\\Post.Cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj",
       "packagesPath": "C:\\Users\\visha\\.nuget\\packages\\",
-      "outputPath": "D:\\CQRSProject\\SM-Post\\Post.cmd\\Post.Cmd.Domain\\obj\\",
+      "outputPath": "D:\\CQRSProject\\SM-Post\\Post.Cmd\\Post.Cmd.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\visha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +71,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\CQRSProject\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+              "projectPath": "D:\\CQRSProject\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+            },
+            "D:\\CQRSProject\\SM-Post\\Post.Common\\Post.Common.csproj": {
+              "projectPath": "D:\\CQRSProject\\SM-Post\\Post.Common\\Post.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
